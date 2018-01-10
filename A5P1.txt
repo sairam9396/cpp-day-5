@@ -1,0 +1,22 @@
+Day 5 Task 1:
+
+
+#include <iostream>
+using namespace std;
+class A
+{
+    public:
+  const char *a="007";
+  float b=90.99;
+};
+
+int main() {
+A obj1;
+A obj2;
+cout<<obj1.a<<endl;
+cout<<obj2.b; 
+}
+
+Output:
+007
+90.99
